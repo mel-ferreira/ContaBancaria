@@ -6,7 +6,7 @@ namespace ContaBancaria
     internal class Conta
     {
         public int Numero { get; private set; }
-        public string Nome;
+        public string Nome {get; set;}
         public double Saldo { get; private set; }
 
         public Conta(int numero, string nome)
